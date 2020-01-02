@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.text {
+  font-size: 8em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  mask-image: url(texture.png);
+  -webkit-mask-image: url(texture.png);
+}
